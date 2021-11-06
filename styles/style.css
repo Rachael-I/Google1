@@ -1,0 +1,162 @@
+body {
+    background-color: #FFFFFF;
+    height: 100vh;
+    margin: 0;
+}
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navList{
+      float: right;
+      margin-right: 15px;
+  }
+  #dotMenu{
+      display: block;
+      width: 15px;
+      height: 15px;
+      padding-right: 12px;
+      padding-top: 16px;
+      color: gray;
+  }
+a {
+    text-decoration: none;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    display: block;
+    padding-top: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a:hover {
+    text-decoration: underline;
+}
+#googleBanner {
+    display: block;
+    height: 92px;
+    width: 272px;
+    position: absolute;
+    left: 50%;
+    top: 22%;
+    margin-left: -136px;
+    margin-top:-46px;
+    }
+.box {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -260px;
+    margin-top:-15px;
+}
+.box input[type=text]{
+    padding-left: 60px;
+}
+.box span{
+    position: absolute;
+    left: 0;
+    top: 1px;
+    padding: 9px 8px;
+}
+.box img{
+    position: absolute;
+    right: 0;
+    top: 1px;
+    padding: 9px 8px;
+}
+.material-icons {
+    color: gray;
+    size: 15px;
+}
+#query {
+    border-radius: 25px;
+    border: 2px gray;
+    box-shadow: 0 0 2px gray; 
+    width: 520px;
+    height: 30px; 
+    padding: 20px 20px 20px 40px;
+}
+#query:hover {
+    border-radius: 25px;
+    border: 2px gray;
+    box-shadow: 0 0 5px gray; 
+    width: 520px;
+    height: 30px; 
+    padding: 20px 20px 20px 40px;
+}
+#googleMic {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.buttons {
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    margin-left: -125px;
+    width: 250px;
+}
+.googleSearch {
+    float: left;
+    padding: 10px;
+    background-color: #f2f0f0;
+}
+.googleSearch:hover {
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10%;
+}
+.feelLucky {
+    float: right;
+    padding: 10px;
+    background-color: #f2f0f0;
+}
+.feelLucky:hover {
+    border-color: #dddada;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10%;
+}
+.topFooter {
+    list-style-type: none;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    color: #a9a9a9;
+    position: fixed;
+    bottom: 15%;
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+    background-color: #f3efef;
+    border-bottom-style: solid;
+    border-bottom-color: #a9a9a9;
+    border-bottom-width: 1px;
+  }
+.bottomFooter {
+    list-style-type: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: black;
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+    background-color: #f3efef;
+  }
+  .footerLeftList{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+  }
+  .footerRightList{
+    list-style-type: none;
+    float: right;
+    margin-right: 15px;
+    padding: 10px;
+}
